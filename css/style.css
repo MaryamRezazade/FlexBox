@@ -129,11 +129,14 @@ body {
 #section1 .items .item{
     flex: 1;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem ;
+    background: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
 }
 #section1 .items .item i {
     background: orange;
-    padding: 1rem;
+    padding: 0.75rem;
     border-radius: 50%;
 }
 #section2{
@@ -156,4 +159,37 @@ body {
     color: #333;
     border-radius: 0.5rem;
     padding: 1rem;
+}
+#section3 .items{
+    display: flex;
+}
+#section3 .items div {
+flex: 1;
+}
+#section3 .items img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 60%;
+}
+#content{
+    display: flex;
+    justify-content: center;
+}
+#content .contact-form {
+    flex-basis: 600px;
+    text-align: right;
+}
+#content .contact-form lable{
+    display: block;
+    margin: 1rem 0;
+}
+#content .contact-form input , textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
