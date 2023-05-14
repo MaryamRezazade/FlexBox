@@ -133,6 +133,8 @@ body {
     background: white;
     border-radius: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
+
 }
 #section1 .items .item i {
     background: orange;
